@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	border-bottom: 2px solid lightgrey;
+	margin-bottom: 50px;
+}
+
+body {
+	text-align: center;
+	font-family: "Josefin Sans", sans-serif;
+	margin: 100px;
+	background-position: center;
+	padding-top: 3px;
+}
+
+.comment-input {
+	width: 30%;
+	float: left;
+}
+
+.comments {
+	width: 60%;
+	float: right;
+}
+
+.comments p{
+	margin-top: 3px;
+}
+
+.comments p:nth-child(even){
+	background: lavender;
+}
+
+.comments p:nth-child(odd){
+	background: gainsboro;
+}
+
+footer {
+	clear: both;
+	background: lightblue;
+	margin-top: 50px;
+}
