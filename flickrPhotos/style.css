@@ -16,28 +16,25 @@ body {
 	padding-top: 3px;
 }
 
-.comment-input {
-	width: 30%;
-	float: left;
+#images div{
+	display: inline-block;
+	margin: 3px;
+	position: relative;
 }
+	#images div img{
+		border: 1.5px solid lightgrey;
+		border-radius: 3px;
+	}
 
-.comments {
-	width: 60%;
-	float: right;
-}
-
-.comments p{
-	margin-top: 3px;
-	border-radius: 3px;
-}
-
-.comments p:nth-child(even){
-	background: lavender;
-}
-
-.comments p:nth-child(odd){
-	background: gainsboro;
-}
+	#images div span{
+		color: honeydew;
+		background: rgba(0,0,0,0);
+		opacity: 0.9;
+		bottom: 2%;
+		left:0;
+		width: 100%;
+		position: absolute;
+	}
 
 footer {
 	clear: both;
